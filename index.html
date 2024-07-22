@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Портфолио</title>
+</head>
+
+<body>
+
+  <div class="container__header">
+    <div class="container">
+      <header class="header">
+        <div class="header__nav">
+          <a href="#" class="header__logo">
+            <img class="logo" src="resources/logo.png" alt="">
+          </a>
+          <nav class="nav">
+            <a href="#projects" class="header__link">Портфолио</a>
+            <a href="#collections" class="header__link">Компетенции</a>
+            <a href="#services" class="header__link">Услуги</a>
+            <a href="#contacts" class="header__link">Контакты</a>
+          </nav>
+
+          <div class="js-burger__btn burger__btn">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+          </div>
+
+          <div class="js-burger burger">
+            <div class="burger__content">
+              <div class="burger__close">
+                <img class="burger__close-image" src="resources/close.svg" alt="">
+              </div>
+              <div class="burger__logo">
+                <a href="#" class="burger__logo-image">
+                  <img class="logo" src="resources/logo.png" alt="">
+                </a>
+              </div>
+              <nav class="nav__theme-dark">
+                <a href="#projects" class="header__link">Портфолио</a>
+                <a href="#collections" class="header__link">Компетенции</a>
+                <a href="#services" class="header__link">Услуги</a>
+                <a href="#contacts" class="header__link">Контакты</a>
+              </nav>
+              <div class="js-burger__content burger__connection">
+                <div class="burger__contacts-title">для связи:</div>
+                <div class="contacts burger__contacts">
+                  <a class="contact burger__contact" href="https://vk.com/artomoshin" target="_blank">vk</a>
+                  <a class="contact burger__contact" href="mailto:artomoschin.d@yandex.ru">mail</a>
+                  <a class="contact burger__contact" href="https://t.me/DmitryArt01" target="_blank">telegram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="header__text">
+          <div class="header__paragraph">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают
+            престиж компании и позволяют выделиться на фоне конкурентов</div>
+          <h1 class="header__title">Привет, я Дима — фронтенд разарботчик и дизайнер сайтов</h1>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <div class="container__black">
+    <div class="container">
+      <main class="main">
+
+        <section id="projects" class="projects">
+          <h2 class="projects-title">Самые свежие проекты</h2>
+          <div class="project__realhome">
+            <div class="name">дизайн интерьера</div>
+            <div class="project__text">
+              <div class="project__title">Метрика</div>
+              <div class="project__subtitle">верстка, настройка</div>
+            </div>
+          </div>
+          <div class="project__presentation">
+            <div class="name">презентация продукта</div>
+            <div class="project__text">
+              <div class="project__title">Presentation</div>
+              <div class="project__subtitle">верстка, настройка</div>
+            </div>
+          </div>
+          <div class="project__toptrip">
+            <div class="name">заказ путешествий</div>
+            <div class="project__text">
+              <div class="project__title">TOPTRIP</div>
+              <div class="project__subtitle">верстка, настройка</div>
+            </div>
+          </div>
+          <button class="project__btn">Смотреть все проекты</button>
+        </section>
+
+        <section id="collections" class="collections">
+          <h2 class="collections__heading">Мои компетенции</h2>
+          <div class="collections__flex">
+            <div class="collections__card">
+              <img class="collections__image" src="resources/html.png" alt="">
+              <h3 class="collections__title">HTML и CSS</h3>
+              <p class="collections__text">это основа фронтенд разработки. Умение создавать и правильно структурировать
+                HTML-документы, а также применять стили к этим документам на CSS, является обязательным навыком для
+                каждого фронтенд разработчика.</p>
+            </div>
+            <div class="collections__card">
+              <img class="collections__image" src="resources/js.png" alt="">
+              <h3 class="collections__title">JavaScript</h3>
+              <p class="collections__text">это язык программирования, который используется для создания динамического и
+                интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
+                JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне
+                клиента.</p>
+            </div>
+            <div class="collections__card">
+              <img class="collections__image" src="resources/library.png" alt="">
+              <h3 class="collections__title collections__title_indent">Работа с библиотеками и фреймворками</h3>
+              <p class="collections__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
+                адаптировать
+                их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            </div>
+            <div class="collections__card">
+              <img class="collections__image" src="resources/react.png" alt="">
+              <h3 class="collections__title">Разработка для мобильных устройств и адаптивная верстка</h3>
+              <p class="collections__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
+                адаптировать
+                их под нужды проекта и расширять их функциональность, является очень важным навыком. </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="services">
+          <div class="services__heading">Помогаю реализовать <br> широкий спектр задач</div>
+          <div class="services__wrapper">
+            <div class="services__card">
+              <img class="services__image_mobile" src="resources/development-mobile.png" alt="">
+              <img class="services__image" src="resources/development.png" alt="">
+              <div class="services__text">
+                <div class="services__title">Разработка <br> сайта под ключ</div>
+                <div class="services__subtitle">Это создание дизайн веб-сайтов, созданный для удобства пользователя и
+                  решения бизнес-задач
+                  Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит
+                  целевое действие</div>
+              </div>
+            </div>
+            <div class="services__card">
+              <img class="services__image_mobile" src="resources/layout-mobile.png" alt="">
+              <img class="services__image" src="resources/layout.png" alt="">
+              <div class="services__text">
+                <div class="services__title">Верстка сайтов</div>
+                <div class="services__subtitle">Это процесс создания HTML-документов и применения к ним стилей на CSS.
+                  Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</div>
+              </div>
+            </div>
+            <div class="services__card">
+              <img class="services__image_mobile" src="resources/mobile-mobile.png" alt="">
+              <img class="services__image" src="resources/mobile.png" alt="">
+              <div class="services__text">
+                <div class="services__title">Разработка мобильного интерфейса</div>
+                <div class="services__subtitle">Это процесс создания интерактивных элементов на странице с помощью
+                  JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский
+                  интерфейс
+                  для вашего сайта или приложения.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+          <div class="contacts__text">
+            <div class="contacts__contacts">
+              <h3 class="contacts__title">Для связи со <br> мной заполните <br> простую форму</h3>
+              <div class="contacts__form">
+                <input class="input" type="text" placeholder="Имя Фамилия">
+                <input class="input" type="text" placeholder="example@mail.com">
+                <button class="contacts__btn">Отправить</button>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__img">
+            <img class="contacts__image" src="resources/user.png" alt="">
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="footer">
+      <div class="footer__up">
+        <h2 class="footer__title">Портфолио фротнтенд-разработчика Димы Артомошина</h2>
+        <div class="contacts">
+          <a class="contact" href="https://vk.com/artomoshin" target="_blank">vk</a>
+          <a class="contact" href="mailto:artomoschin.d@yandex.ru">mail</a>
+          <a class="contact" href="https://t.me/DmitryArt01" target="_blank">telegram</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <h3 class="footer__subtitle">Все права защищены. 2024</h3>
+        <div class="politics">политика обработки данных</div>
+    </footer>
+  </div>
+
+  <script src="burger.js"></script>
+
+</body>
+
+</html>
